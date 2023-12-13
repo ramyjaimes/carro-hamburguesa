@@ -1,0 +1,60 @@
+body {
+  background-image: url("./css-background.jpg");
+  background-size: cover;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #F80808;
+}
+
+header {
+  display: grid;
+}
+
+#logo {
+  width: 64px;
+  height: 64px;
+}
+
+h1 {
+  color: rgb(60, 8, 33);
+  text-align: center;
+  font-size: 48px;
+  margin-top: 24px;
+}
+
+.menu {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.menu section {
+  display: flex;
+  gap: 20px;
+}
+.menu img {
+  width: 100%;
+  height: 300px;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.gridcontainer img {
+  width: 100%;
+  height: 250px;
+}
+
+@media (max-width: 768px) {
+  .gridcontainer {
+    grid-template-columns: 1fr;
+  }
+  .menu section {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

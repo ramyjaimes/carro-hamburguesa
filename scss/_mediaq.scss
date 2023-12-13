@@ -1,0 +1,10 @@
+@media (max-width:768px){
+    .gridcontainer{
+        grid-template-columns: 1fr;
+    } 
+    
+    .menu section {
+        flex-direction: column;
+    }
+    
+}
